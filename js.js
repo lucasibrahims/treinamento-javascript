@@ -63,7 +63,7 @@ function oferecerSeguro (obj)
     const chavesClientes = Object.keys(obj);
     if ( chavesClientes.includes("dependentes") )
     {
-        console.log(`Oferta de Seguro de Vida para o Sr. ${obj.nome} e suas ${obj.dependentes[0].parentesco}s`);
+        console.log(`Oferta de Seguro de Vida para o Sr. ${obj.nome} e suas(seus) ${obj.dependentes[0].parentesco}s`);
 
     }
 }
